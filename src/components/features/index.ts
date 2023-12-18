@@ -1,1 +1,5 @@
 export { default as Navigation } from './navigation/Navigation.vue'
+export { default as Filter } from './filter/Filter.vue'
+export { default as Trending } from './trending/Trending.vue'
+export { default as Card } from './Card/Card.vue'
+export { default as SearchContainer } from './search/SearchContainer.vue'

@@ -18,9 +18,13 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@apollo/client": "^3.8.8",
+    "@vue/apollo-composable": "^4.0.0-beta.12",
     "@vueuse/core": "^10.7.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
+    "graphql": "^16.8.1",
+    "graphql-tag": "^2.12.6",
     "lucide-vue-next": "^0.295.0",
     "pinia": "^2.1.7",
     "radix-vue": "^1.2.4",
