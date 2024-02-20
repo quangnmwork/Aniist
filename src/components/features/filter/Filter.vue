@@ -95,7 +95,7 @@ import { FORMAT, MEDIA_SESSION } from './constant'
 import { textJSON } from '@/text'
 import { useToast } from '@/components/ui/toast'
 import { useFilterSearch } from './useFilterSearch'
-import { reactive, watch } from 'vue'
+import { reactive } from 'vue'
 
 const { toast } = useToast()
 

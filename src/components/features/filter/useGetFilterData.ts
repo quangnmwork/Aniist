@@ -12,7 +12,7 @@ type Props = {
 }
 
 export const useGetFilterData = () => {
-  const { onError, result, refetch } = useQuery<Props>(getFilterQuery)
+  const { onError, result, refetch, onResult } = useQuery<Props>(getFilterQuery)
 
   const res = computed(() => ({
     genres: result.value?.genres ?? [],
@@ -22,6 +22,7 @@ export const useGetFilterData = () => {
   return {
     onError,
     refetch,
-    result: res
+    result: res,
+    onResult
   }
 }
