@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-6xl grid grid-cols-5">
+  <div class="max-w-6xl grid grid-cols-5 mx-auto my-3">
     <Card
       :key="id"
       v-bind="{

@@ -25,17 +25,15 @@ export const useFilterSearch = defineStore('filter', {
           state.season.trim().length ||
           state.format.trim().length) > 0
       )
-    }
-  },
-  actions: {
-    isFilterSearchValid() {
-      return (
-        (this.search.trim().length ||
-          this.genre.trim().length ||
-          this.tag.trim().length ||
-          this.season.trim().length ||
-          this.format.trim().length) > 0
-      )
+    },
+    query: (state) => {
+      return {
+        search: state.search,
+        genre: state.genre,
+        tag: state.tag,
+        season: state.season,
+        format: state.format
+      }
     }
   }
 })
