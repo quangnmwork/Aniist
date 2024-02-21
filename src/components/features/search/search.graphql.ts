@@ -18,6 +18,7 @@ export const searchQuery = gql`
         id
         coverImage {
           medium
+          color
         }
       }
     }

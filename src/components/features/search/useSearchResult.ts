@@ -7,7 +7,7 @@ type ReturnData = {
     media: {
       title: { userPreferred: string }
       id: number
-      coverImage: { medium: string }
+      coverImage: { medium: string; color: string }
     }[]
   }
 }

@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-6xl px-8 py-4 flex gap-6">
+  <div class="max-w-6xl px-8 py-4 flex gap-6 mx-auto">
     <div class="grid items-center gap-1.5 w-[180px]">
       <label for="search">Search</label>
       <Input
